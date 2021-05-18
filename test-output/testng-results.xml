@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="23771" started-at="2021-05-08T02:14:25Z" finished-at="2021-05-08T02:14:49Z">
+    <groups>
+    </groups>
+    <test name="seleniumDemo" duration-ms="23771" started-at="2021-05-08T02:14:25Z" finished-at="2021-05-08T02:14:49Z">
+      <class name="cases.testLogin">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:null(cases.testLogin)]" name="setUp" is-config="true" duration-ms="4367" started-at="2021-05-08T10:14:25Z" finished-at="2021-05-08T10:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogFailedCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null(cases.testLogin)]" name="testLogFailedCase" duration-ms="409" started-at="2021-05-08T10:14:29Z" data-provider="user" finished-at="2021-05-08T10:14:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[用户不存在/密码错误]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogFailedCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:null(cases.testLogin)]" name="tearDown" is-config="true" duration-ms="673" started-at="2021-05-08T10:14:30Z" finished-at="2021-05-08T10:14:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:null(cases.testLogin)]" name="setUp" is-config="true" duration-ms="3641" started-at="2021-05-08T10:14:30Z" finished-at="2021-05-08T10:14:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogFailedCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null(cases.testLogin)]" name="testLogFailedCase" duration-ms="414" started-at="2021-05-08T10:14:34Z" data-provider="user" finished-at="2021-05-08T10:14:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[请输入您的密码]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogFailedCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:null(cases.testLogin)]" name="tearDown" is-config="true" duration-ms="550" started-at="2021-05-08T10:14:35Z" finished-at="2021-05-08T10:14:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:null(cases.testLogin)]" name="setUp" is-config="true" duration-ms="3599" started-at="2021-05-08T10:14:35Z" finished-at="2021-05-08T10:14:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogFailedCase(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:null(cases.testLogin)]" name="testLogFailedCase" duration-ms="398" started-at="2021-05-08T10:14:39Z" data-provider="user" finished-at="2021-05-08T10:14:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[请输入您的用户名]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogFailedCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:null(cases.testLogin)]" name="tearDown" is-config="true" duration-ms="648" started-at="2021-05-08T10:14:39Z" finished-at="2021-05-08T10:14:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:null(cases.testLogin)]" name="setUp" is-config="true" duration-ms="4306" started-at="2021-05-08T10:14:40Z" finished-at="2021-05-08T10:14:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testLogSuccessCase()[pri:0, instance:null(cases.testLogin)]" name="testLogSuccessCase" duration-ms="4070" started-at="2021-05-08T10:14:44Z" finished-at="2021-05-08T10:14:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogSuccessCase -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:null(cases.testLogin)]" name="tearDown" is-config="true" duration-ms="681" started-at="2021-05-08T10:14:48Z" finished-at="2021-05-08T10:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- cases.testLogin -->
+    </test> <!-- seleniumDemo -->
+  </suite> <!-- Default Suite -->
+</testng-results>
