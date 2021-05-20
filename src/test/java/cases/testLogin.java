@@ -28,16 +28,14 @@ public class testLogin extends TestCase {
     WebDriver driver;
     Login login;
 
-    /**
-     * 用例执行前初始化driver
-     */
-    @BeforeMethod
-    protected void setUp() {
-        // TODO 自动生成的方法存根
-       // System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
-       // System.setProperty("webdriver.firefox.bin", "D:/firefox/firefox.exe");
-      //  driver = new FirefoxDriver();
-       // login = new Login(driver);
+    void localSetUp() {
+        System.setProperty("webdriver.gecko.driver", "./drivers/geckodriver.exe");
+        System.setProperty("webdriver.firefox.bin", "D:/firefox/firefox.exe");
+        driver = new FirefoxDriver();
+        login = new Login(driver);
+    }
+
+    void remoteSetUp() {
         try {
             driver = new RemoteWebDriver(new URL("http://127.0.0.1:4444/wd/hub"),
                     DesiredCapabilities.firefox());
@@ -46,6 +44,16 @@ public class testLogin extends TestCase {
                 MalformedURLException e) {
             e.printStackTrace();
         }
+    }
+
+    /**
+     * 用例执行前初始化driver
+     */
+    @BeforeMethod
+    protected void setUp() {
+        // TODO 自动生成的方法存根
+        localSetUp();
+
         // 打开管理平台地址
         login.openUrl("http://113.57.110.66:8091/greatwall_admin/login");
     }
